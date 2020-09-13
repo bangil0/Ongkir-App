@@ -5,9 +5,7 @@ mongoose.Promise = global.Promise
 
 // init database connection
 mongoose
-  .connect(
-    ` mongodb+srv://${process.env.MONGO_USERNAME}:${process.env.MONGO_PASSWORD}@cluster0.eac74.mongodb.net/${process.env.MONGO_DB_NAME}?retryWrites=true&w=majority`,
-    {
+  .connect(process.env.MONGO_URI, {
       useNewUrlParser: true,
       useUnifiedTopology: true,
       useFindAndModify: false,
