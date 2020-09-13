@@ -4,7 +4,7 @@
 
 #### Cara Menjalankan Aplikasi
 
-**Install module** terlebih dahulu sesuai dengan apa yang tertera di `package.json`, kemudian buka **terminal** dan silahkan ketikan `npm install` atau `yarn add`, setelah selesai menginstall **module** tersebut lalu silahkan jalankan dengan cara mengetikan `npm start` atau `yarn start` pada **terminal**.
+**Install module** terlebih dahulu sesuai dengan apa yang tertera di `package.json`, kemudian buka **terminal** dan silahkan ketikan `npm install` atau `yarn add`, setelah selesai menginstall **module** tersebut lalu silahkan jalankan dengan cara mengetikan `npm run server:start` atau `yarn server:start` untuk **server** dan megetikan `npm run client:start` atau `yarn client:start` untuk **client** pada **terminal**.
 
 #### Cara Deploy Aplikasi
 + install **Heroku CLI** terlebih dahulu [disini](https://devcenter.heroku.com/articles/heroku-cli)

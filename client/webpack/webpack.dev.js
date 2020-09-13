@@ -3,7 +3,6 @@ const { existsSync } = require('fs')
 const webpack = require('webpack')
 const { WebpackLogCompiler } = require('./addons/webpack.log')
 const HtmlWebpackPlugin = require('html-webpack-plugin')
-const FriendlyErrorsPlugin = require('friendly-errors-webpack-plugin')
 
 module.exports = {
 	mode: 'development',
@@ -61,7 +60,6 @@ module.exports = {
 		new webpack.DefinePlugin({
 			'process.env.NODE_ENV': JSON.stringify('development')
 		}),
-		new FriendlyErrorsPlugin(),
 		new HtmlWebpackPlugin({
 			template: resolve(process.cwd(), 'public/index.html'),
 			scriptLoading: 'defer'
