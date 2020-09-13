@@ -6,4 +6,4 @@ debug.log
 src/routes/PrivateRoute.jsx
 src/services/id.js
 src/services/verify.js
-src/components/pages/ModalForm.jsx
+src/components/ModalForm.jsx
